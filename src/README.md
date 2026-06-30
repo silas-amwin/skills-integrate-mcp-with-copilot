@@ -12,13 +12,13 @@ A super simple FastAPI application that allows students to view and sign up for 
 1. Install the dependencies:
 
    ```
-   pip install fastapi uvicorn
+   pip install -r ../requirements.txt
    ```
 
 2. Run the application:
 
    ```
-   python app.py
+   uvicorn app:app --reload --host 0.0.0.0 --port 8000
    ```
 
 3. Open your browser and go to:
